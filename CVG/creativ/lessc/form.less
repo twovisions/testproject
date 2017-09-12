@@ -1,0 +1,108 @@
+/* Forms */ 
+.form-item .form-item-control {
+  border-radius:2px;
+  background-color:#e8e8e8;
+  border:none;
+  height:40px;
+  box-shadow:none;
+}
+.form-item .form-item-control:focus {
+  background-color:#ebebeb;
+    border:none;
+    outline: 0;
+    box-shadow:none;
+}
+.form-item select {
+  margin-top:5px;
+  border-radius:2px;
+  color:#556;
+  padding: 8px;
+  border: none;
+  background-color:#e8e8e8;
+}
+
+.form-item textarea.form-item-control { height:auto; }
+
+.form-item-message-error,
+.has-error .error {
+  color:#B94321;
+  font-size:14px;
+  font-weight: 400;
+  margin-top:3px;
+}
+.form-item { width: 100%; }
+
+.form-item input[type],
+.form-item textarea {
+  width: 100%;
+  margin-top:5px;
+  padding: 5px;
+  text-indent:5px;
+  outline: none;
+  -webkit-transition: all 0.2s linear; transition: all 0.2s linear;
+  color: #556;
+  background: #e8e8e8;
+  border: none;
+  box-shadow:none;
+}
+.form-item input[type]:hover,
+.form-item textarea:hover {
+  box-shadow:none;
+  border:none;
+  background-color: #ededed;
+}
+.form-item input[type]:focus,
+.form-item textarea:focus {
+  box-shadow:2px 2px 8px rgba(20,20,20,0.5);
+  border: none;
+  background-color:#ebebeb;
+}
+
+.form-item input[type=radio],
+.form-item input[type=checkbox] {
+  width:auto;
+  margin-right:5px;
+}
+
+.form-item input[type=radio] {
+  margin-top:0;
+}
+.form-item label {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.form-item-required {
+  color: #C51010;
+  font-weight: 400;
+  vertical-align: middle;
+  font-size: 13px;
+}
+.form-item .form-item-remember {
+  display:inline-block;
+  margin-right:15px;
+}
+@media (max-width:767px) {
+  .form-item .forgot {
+    display: block;
+    margin: -20px 20px 25px;
+  }
+}
+
+.form-item-group { 
+  position:relative;
+}
+
+.form-item-icon:after {
+  content:"\f140";
+  font-family:"FontAwesome";
+  font-size:15px;
+  position:absolute;
+  right:14px;
+  top:7px;
+  color:#99a;
+}
+.form-item-icon.icon-user:after { content:"\f007"; }
+.form-item-icon.icon-email:after { content:"\f0e0"; }
+.form-item-icon.icon-message:after { content:"\f039"; }
+.form-item-icon.icon-lock:after { content:"\f023"; }

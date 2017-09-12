@@ -1,0 +1,66 @@
+name = Creativ
+description = "Creativ - Responsive Multi-Purpose Drupal Theme"
+core = 7.x
+base theme = drupalexp
+regions[slider_top] = Slider Top
+regions[slider] = Slider
+regions[logo] = Logo
+regions[navigation] = Navigation
+regions[banner] = Parallax Banner
+regions[breadcrumb] = Breadcrumb
+regions[pagetitle] = Page Title
+
+regions[tagline] = Tag Line
+regions[top_left] = Top Left
+regions[top_right] = Top Right
+regions[top_content] = Top Content
+regions[bottom_content] = Bottom Content
+regions[feature_first] = Feature
+
+regions[content] = Content
+regions[right_sidebar] = Right sidebar
+regions[left_sidebar] = Left sidebar
+
+regions[user_01] = User 01
+regions[user_02] = User 02
+regions[user_03] = User 03
+regions[user_04] = User 04
+regions[user_05] = User 05
+regions[user_06] = User 06
+regions[user_07] = User 07
+regions[user_08] = User 08
+regions[user_09] = User 09
+regions[user_10] = User 10
+
+regions[client] = Clients
+regions[bottom_social] = Bottom Social
+regions[bottom_first] = Bottom First
+regions[bottom_second] = Bottom Second
+regions[bottom_third] = Bottom Third
+regions[bottom_fourth] = Bottom Fourth
+regions[bottom] = Bottom 
+
+regions[copyright] = Copyright
+
+lessc[] = lessc/mixin.less
+lessc[] = lessc/common.less
+lessc[] = lessc/shortcode.less
+lessc[] = lessc/style.less
+lessc[] = lessc/blog.less
+lessc[] = lessc/portfolio.less
+lessc[] = lessc/team.less
+lessc[] = lessc/pages.less
+lessc[] = lessc/search.less
+lessc[] = lessc/menu.less
+lessc[] = lessc/header.less
+lessc[] = lessc/topbar.less
+lessc[] = lessc/slideshow.less
+lessc[] = lessc/shop.less
+lessc[] = lessc/imageOverlay.less
+lessc[] = lessc/style-rtl.less
+lessc[] = lessc/quicksettings.less
+
+stylesheets[all][] = assets/css/custom.css
+stylesheets[all][] = assets/css/prettyPhoto.css
+scripts[] = assets/js/creativ.js
+scripts[] = assets/js/jquery.prettyPhoto.js
